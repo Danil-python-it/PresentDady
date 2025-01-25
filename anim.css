@@ -1,4 +1,4 @@
-@keyframes SpawnText{
+@-webkit-keyframes SpawnText{
     0%{
         font-size: 0px;
         -webkit-transform: translateY(-100%);
@@ -16,7 +16,7 @@
     -webkit-animation: forwards SpawnText 1s 1;
     animation: forwards SpawnText 1s 1;
 }
-@keyframes DestroyText{
+@-webkit-keyframes DestroyText{
     0%{
         font-size: 40px;
         -webkit-transform: translateY(0%);
@@ -32,7 +32,7 @@
     -webkit-animation: forwards DestroyText 1s 1;
     animation: forwards DestroyText 1s 1;
 }
-@keyframes SpawnClicker{
+@-webkit-keyframes SpawnClicker{
     0%{
         -webkit-transform: translateY(100%);
         transform: translateY(100%);
@@ -46,7 +46,7 @@
     -webkit-animation: forwards SpawnClicker 1s 1;
     animation: forwards SpawnClicker 1s 1;
 }
-@keyframes DestroyClicker{
+@-webkit-keyframes DestroyClicker{
     0%{
         -webkit-transform: translateY(0%);
         transform: translateY(0%);
@@ -62,7 +62,7 @@
     
 }
 
-@keyframes ClickAnim{
+@-webkit-keyframes ClickAnim{
     0%{
         -webkit-transform: translateY(0%);    
         transform: translateY(0%);    
@@ -89,7 +89,7 @@
     -webkit-animation: ClickAnim 0.5s;
     animation: ClickAnim 0.5s;
 }
-@keyframes SpawnLetter{
+@-webkit-keyframes SpawnLetter{
     0%{
         -webkit-transform: scale(0);
         transform: scale(0);
