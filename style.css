@@ -89,7 +89,7 @@ body{
 .image{
     width: 375px;
     height: 375px;
-    transition: 0.2s;
+    -webkit-transition: 0.2s;
 }
 
 .Present_letter{
