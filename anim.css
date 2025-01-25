@@ -1,0 +1,81 @@
+@keyframes SpawnText{
+    0%{
+        font-size: 0px;
+        transform: translateY(-100%);
+    }
+    100%{
+        font-size: 40px;
+        transform: translateY(0%);
+    }
+
+}
+.SpawnWords{
+    animation: forwards SpawnText 1s 1;
+}
+@keyframes DestroyText{
+    0%{
+        font-size: 40px;
+        transform: translateY(0%);
+    }
+    100%{
+        font-size: 0px;
+        transform: translateY(-100%);
+    }
+}
+.DestroyWords{
+    animation: forwards DestroyText 1s 1;
+}
+@keyframes SpawnClicker{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.SpawnButton{
+    animation: forwards SpawnClicker 1s 1;
+}
+@keyframes DestroyClicker{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+.DestroyButton{
+    animation: forwards DestroyClicker 1s 1;
+}
+
+@keyframes ClickAnim{
+    0%{
+        transform: translateY(0%);    
+    }
+    10%{
+        transform: translateY(10%);    
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    90%{
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(0%);    
+    }
+}
+.click_on_btn{
+    animation: ClickAnim 0.5s;
+}
+@keyframes SpawnLetter{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.SpawnPanel{
+    animation: forwards SpawnLetter 1s 1;
+}
